@@ -8,7 +8,7 @@ canvas = Canvas(root, width= 1000, height=820, bg='blue')
 for y in range(20):
     k = 50 * y
     canvas.create_line(10+k, 610, 10+k, 3, width=1, fill='#191938')
-# сетка по оси x
+#  сетка по оси x
 for x in range(13):
     k = 50 * x
     canvas.create_line(10, 10+k, 1010, 10+k, width=1, fill='#191938')
